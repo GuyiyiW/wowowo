@@ -1,0 +1,81 @@
+/* 重置默认样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* 页面背景 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* 设置一个基础背景颜色 */
+    background-image: url('"pcy.jpg"'); /* 设置背景图片 */
+    background-size: cover; /* 背景图片覆盖整个页面 */
+    background-position: center center; /* 背景图片居中显示 */
+    background-attachment: fixed; /* 背景图片固定不动 */
+    color: #333;
+    text-align: center;
+}
+
+
+
+/* 页头样式 */
+header {
+    background-color: #00B140;
+    color: white;
+    padding: 20px 0;
+}
+
+header .logo {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* 关于我们部分 */
+.about {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    margin-top: 20px;
+}
+
+.about h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* 联系我们部分 */
+.contact {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    margin-top: 20px;
+}
+
+.contact h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.contact a {
+    color: #00B140;
+    text-decoration: none;
+}
+
+/* 页脚样式 */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    margin-top: 40px;
+}
